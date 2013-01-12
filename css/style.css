@@ -1,0 +1,164 @@
+﻿body{
+	font-size:12px;
+}
+
+a:link {
+ font-size: 9pt; COLOR: #333333; TEXT-DECORATION: none;
+}
+a:visited {
+ font-size: 9pt; COLOR: blue; TEXT-DECORATION: none;
+}
+a:hover {
+ font-size: 9pt; COLOR: #FF5400; TEXT-DECORATION:underline;
+}
+
+input{
+	width:100px;
+}
+table{
+	border:1px solid #ddd;
+	font-size:12px;
+	float:left;
+	word-break:break-all;
+	overflow:hidden;*overflow:hidden;
+	background:#ddd; *background:#ddd;
+	
+}
+table .sub_msg{
+	color:#ff0000;
+}
+
+table .H{
+	color:#ff0000;
+}
+
+table tr td{
+	padding:2px;
+}	
+table tr.tr{
+	background:#ff0000;
+	color:#000;
+}
+img{
+	border:none;
+}
+/**
+ *---------------分页样式-----------------
+ */
+
+.pages {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:right;
+}
+.pages li {
+	display:inline;
+	float: left;
+	padding:0px 5px;
+	height:21px;
+	color:#666;
+	line-height:21px;
+	border: 1px solid #E0E0E0;
+	background:#FFF;
+}
+.pages li span {
+	color:#0044DD;
+	background:#FFF;
+}
+.pages li.page_a {
+	padding:0;
+	border:0;
+}
+.pages li.page_a a {
+	FLOAT: left;
+	display: block;
+	padding:0px 5px;
+	color:#0044DD;
+	border: 1px solid #E0E0E0;
+}
+.pages li.page_a a:hover {
+	display: block;
+	color:red;
+	border: 1px solid #A0A0A0;
+}
+.pages li.pages_input {
+	padding:0;
+	border: 1px solid #A0A0A0;
+}
+.pages li.pages_input input {
+	width:18px;
+	font-size:14px;
+	border:0px;
+	padding:0px 3px;
+	margin:0px 3px;
+	text-align:center;
+}
+.pages .on {
+	padding:0px 5px;
+	color: red;
+	font-weight:bold;
+}
+.pages .page_clear {
+	clear:both;
+}
+/**
+ *------------------分页样式---------------------
+ */	
+ 
+ /*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+body{
+color: #333;
+font-size: 12px;
+font-family: verdana;
+}
+a{
+color: #fff;
+text-decoration: none;
+}
+a:hover{
+color: #ff0000;
+}
+p{
+margin: 0;
+padding: 5px;
+line-height: 1.5em;
+text-align: justify;
+border: 1px solid #73A405;
+}
+#wrapper{
+width: 500px;
+
+
+}
+.box{
+background: #fff;
+}
+.boxholder{
+clear: both;
+padding: 5px;
+background: #8DC70A;
+}
+.tab{
+float: left;
+height: 32px;
+width: 102px;
+margin: 0 1px 0 0;
+text-align: center;
+background: #8DC70A url(../images/greentab.jpg) no-repeat;
+}
+.tabtxt{
+margin: 0;
+color: #fff;
+font-size: 12px;
+font-weight: bold;
+padding: 9px 0 0 0;
+}
+#msgs a{
+	color:red;
+	font-weight:bold;
+}
